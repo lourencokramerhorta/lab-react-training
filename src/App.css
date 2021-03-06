@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+.bold{
+  font-weight: bold;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 12px;
+  border: white;
+  border-style: solid;
+  border-radius: 30px;
+  padding-left: 10px;
+  padding-right: 100px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  justify-content: start; 
+}
+.cardText{
+  display: flex;
+  justify-content: start;
+  padding-left: 20px;
+}
+.cardImg{
+  border-radius: 20px;
+}
+.greeting{
+   border: white;
+   border-style: solid;
+   padding-left: 50px;
+   padding-right: 50px;
+   border-radius: 10px;
+   margin: 10px;
+}
+
